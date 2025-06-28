@@ -904,4 +904,28 @@
     border-top: 1px solid rgba(255, 255, 255, 0.08);
     background: var(--bs-secondary) !important;
 }
-/*** copyright end ***/
+
+/* Manual codes */
+.logo-m1{
+    font-size: 36px;
+}
+
+@media (max-width: 768px)
+{
+    .logo-m1{
+        font-size: 16px;
+        margin-right: -5%;
+    }
+}
+
+.fot-mn-01{
+        margin-left: 12%;
+     }
+
+@media (max-width: 768px)
+{
+     .fot-mn-01{
+        margin-left: -5%;
+     }
+
+}
